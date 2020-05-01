@@ -63,7 +63,7 @@ Please follow the following steps in order:
 - **STEP 1 - Prepare** (&asymp; 5 minutes)
 - **STEP 2 - Set Up the App** (&asymp; 10 minutes)
 - **STEP 3 - Implement the App's Requirements** (&asymp; 75 minutes)
-- **STEP 4 - Demo & Slack Link to Your Instructor**
+- **STEP 4 - Deploy & Slack Link to Your Instructor**
 
 > The above times are just guidelines
 
@@ -164,10 +164,10 @@ The button deletes that widget from the database. For example, no more JavaScrip
 
 **Congrats, you're done!**
 
-### STEP 4 - Demo & Slack Live Site Link to Your Instructor
+### STEP 4 - Deploy to Heroku & Slack Live Site Link to Your Instructor
 
 **Take your computer and demo the app's functionality to your instructor.**
 
-Once you have completed the requirements, deploy the app to Heroku or some other platform of your choice. Take the link to the live site (not your Github repo), and send it via slack to your instructional team.
+Once you have completed the requirements, deploy the app to Heroku or some other platform of your choice. You can reference the [class notes on deployment](https://gawdiseattle.gitbook.io/wdi/00-config-deployment/deploy-node) for this step. Take the link to the live site (not your Github repo), and send it via slack to your instructional team.
 
 **Slack your app's link to your instructors**
