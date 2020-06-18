@@ -1,13 +1,30 @@
 var buttoninc = document.getElementById('inc'),
 buttondec = document.getElementById('dec'),
-count = document.getElementById('input'),
-dis = document.getElementById('display')
+count = 0,
+dis = document.getElementById('display'),
+distxt = document.getElementById('display'),
+i = document.getElementById('input')
+
+i.addEventListener('change', update)
+function update(e){
+    count=e.target.value
+}
 
 function inc() {
     console.log('+')
-    count += 1
-    dis.innerHTML = count + count
-    
+    count = count + parseInt(i.value);
+    console.log(count)
+    dis.innerHTML = count  
+    if (count > 0) {
+        document.getElementById('display').style.color = 'blue'  
+    }
+}
+function dec() {
+    count = count - parseInt(i.value);
+    dis.innerHTML = count
+    if (count < 0) {
+        document.getElementById('display').style.color = 'red'
+    }
 }
 
 
@@ -48,7 +65,7 @@ function inc() {
 // buttondec.onclick = function () {
 //     count -= 1;
 //     dis.innerHTML = count
-//     if (count < 0) {
-//         document.getElementById('display').style.color = 'red'
-//     }
+    // if (count < 0) {
+    //     document.getElementById('display').style.color = 'red'
+    // }
 // }
