@@ -3,12 +3,7 @@ buttondec = document.getElementById('dec'),
 count = 0,
 dis = document.getElementById('display'),
 distxt = document.getElementById('display'),
-i = document.getElementById('input')
 
-i.addEventListener('change', update)
-function update(e){
-    count=e.target.value
-}
 
 function inc() {
     console.log('+')
