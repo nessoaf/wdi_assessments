@@ -3,6 +3,7 @@ buttondec = document.getElementById('dec'),
 count = 0,
 dis = document.getElementById('display'),
 distxt = document.getElementById('display'),
+i = document.getElementById('input')
 
 
 function inc() {
